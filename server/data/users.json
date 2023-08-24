@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "username": "user1", 
+            "birthdate": "01/01/2001", 
+            "age": 21, 
+            "email": "user1@abc.com", 
+            "pwd": "111",
+            "valid": false
+        },
+        {
+            "username": "user2",
+            "birthdate": "12/10/1998",
+            "age": 20,
+            "email": "user2@abc.com",
+            "pwd": "222",
+            "valid": false
+        },
+        {
+            "username": "user3",
+            "birthdate": "15/01/1995",
+            "age": 25,
+            "email": "user3@abc.com",
+            "pwd": "333",
+            "valid": false
+        }
+    ]
+}

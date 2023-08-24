@@ -1,4 +1,22 @@
-<div class="container mt-5">
-    <h2>Accounts Page</h2>
-    <img src="assets/user1.png" alt="Your image description" class="img-fluid" width="200" height="200">
-</div>
+<h1> Account </h1>
+
+<ng-template [ngIf]="valid">
+    <div>
+        <div>
+            <h2> Username: </h2>
+            <p> {{username}} </p>
+        </div>
+        <div>
+            <h2> Birthdate: </h2>
+            <p> {{birthdate}} </p>
+        </div>
+        <div>
+            <h2> Age: </h2>
+            <p> {{age}} </p>
+        </div>
+        <div>
+            <h2> Email: </h2>
+            <p> {{email}} </p>
+        </div>
+    </div>
+</ng-template>
